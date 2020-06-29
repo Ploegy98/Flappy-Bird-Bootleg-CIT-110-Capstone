@@ -10,7 +10,7 @@
         <Button x:Name="Start_Game" Content="Start Game" HorizontalAlignment="Left" Margin="372,278,0,0" VerticalAlignment="Top" Width="75" Click="Start_game"/>
         <TextBox HorizontalAlignment="Left" Height="30" Margin="341,38,0,0" TextWrapping="Wrap" Text="Flappy Bird Bootleg" VerticalAlignment="Top" Width="146" TextChanged="TextBox_TextChanged" FontSize="16"/>
         <TextBox HorizontalAlignment="Left" Height="51" Margin="321,90,0,0" TextWrapping="Wrap" Text="Welcome to Flappy Bird Bootleg , a Capstone project for CIT 110" VerticalAlignment="Top" Width="184"/>
-        <TextBox HorizontalAlignment="Left" Height="41" Margin="308,187,0,0" TextWrapping="Wrap" Text="To make the bird fly, hold space. To restar press R" VerticalAlignment="Top" Width="207"/>
+        <TextBox HorizontalAlignment="Left" Height="82" Margin="310,157,0,0" TextWrapping="Wrap" Text="To make the bird fly, hold space. To restart press R. The game is endless, avoid the obstacles and shoot for the high-score!" VerticalAlignment="Top" Width="210"/>
 
     </Grid>
 </Window>
