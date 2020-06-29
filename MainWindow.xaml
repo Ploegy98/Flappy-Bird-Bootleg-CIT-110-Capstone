@@ -1,0 +1,16 @@
+﻿<Window x:Class="Flappy_Bird_Bootleg.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Flappy_Bird_Bootleg"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="Start_Game" Content="Start Game" HorizontalAlignment="Left" Margin="372,278,0,0" VerticalAlignment="Top" Width="75" Click="Start_game"/>
+        <TextBox HorizontalAlignment="Left" Height="30" Margin="341,38,0,0" TextWrapping="Wrap" Text="Flappy Bird Bootleg" VerticalAlignment="Top" Width="146" TextChanged="TextBox_TextChanged" FontSize="16"/>
+        <TextBox HorizontalAlignment="Left" Height="51" Margin="321,90,0,0" TextWrapping="Wrap" Text="Welcome to Flappy Bird Bootleg , a Capstone project for CIT 110" VerticalAlignment="Top" Width="184"/>
+        <TextBox HorizontalAlignment="Left" Height="41" Margin="308,187,0,0" TextWrapping="Wrap" Text="To make the bird fly, hold space. To restar press R" VerticalAlignment="Top" Width="207"/>
+
+    </Grid>
+</Window>
